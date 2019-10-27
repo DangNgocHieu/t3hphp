@@ -1,0 +1,25 @@
+#menu ul li {
+    list-style-type: none;
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #000000;
+    position: relative;
+
+
+}
+li{
+    text-decoration: none;
+}
+#menu ul  li .discoundmenu{
+    position: absolute;
+    display: none;
+    left: 0px;
+}
+#menu ul li:hover .discoundmenu{
+    display: block;
+}
+ul{
+    direction:none 
+}

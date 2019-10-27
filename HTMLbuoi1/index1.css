@@ -1,6 +1,7 @@
 #abc ul li{
-    background: red;
     width: 100px;
     height: 100px;
-    float: left;
+    display: inline-block;
+    border: 1px solid #000000;
+    list-style: none;
 }
